@@ -1,0 +1,39 @@
+name: Suggest a company
+description: Suggest a company that uses Go in Málaga (we'll add it for you)
+title: "Add company: "
+labels: ["company-suggestion"]
+body:
+  - type: input
+    id: company-name
+    attributes:
+      label: Company name
+      placeholder: Acme
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      placeholder: https://acme.com
+    validations:
+      required: true
+  - type: input
+    id: go-usage
+    attributes:
+      label: How do they use Go?
+      description: One short line — services, tooling, infrastructure…
+      placeholder: Payments backend, microservices
+    validations:
+      required: true
+  - type: input
+    id: jobs
+    attributes:
+      label: Careers page (optional)
+      placeholder: https://acme.com/careers
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: How do you know they use Go in Málaga? Job postings, blog posts, talks, repos… or "I work there".
+    validations:
+      required: true
