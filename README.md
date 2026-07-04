@@ -1,6 +1,6 @@
 # Companies using Go in Málaga
 
-A community-maintained list of companies using [Go](https://go.dev) in Málaga, Spain — curated by the [GoMálaga](https://github.com/gomalaga) meetup community.
+A community-maintained list of companies using [Go](https://go.dev) in Málaga, Spain. Curated by the [Golang Málaga](https://www.meetup.com/es-ES/golang-malaga) meetup community.
 
 Know a company that belongs here? Open a [pull request](CONTRIBUTING.md) or [suggest it via an issue](../../issues/new?template=add-company.yml) — it takes two minutes.
 
